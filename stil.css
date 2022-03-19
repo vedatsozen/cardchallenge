@@ -1,0 +1,128 @@
+body {
+
+background-color: hsl(217, 54%, 11%);
+font-family: 'Outfit', sans-serif;
+font-size: 18px;
+text-align: center;
+
+}
+
+#container {
+
+position: absolute;
+top:50%;
+left: 50%;
+transform: translate(-50%,-50%);
+height: 520px;
+width:300px;
+background-color:  hsl(216, 50%, 16%);
+border-radius: 7px;
+padding: 10px;
+
+}
+
+#first, #second, #third, #fourth {
+
+height: 45px;
+width: 100%;
+margin-top: 5px;
+
+}
+
+img {
+
+height: 100%;
+width: 100%;
+border-radius: 7px;
+
+}
+
+#first, #second {
+	
+	display: flex;
+	align-items: center;
+	justify-content: left;
+
+}
+
+p {
+	margin-left: 10px;
+	color: white;
+}
+
+p.second {
+	color:hsl(215, 51%, 70%);
+	font-weight: normal;
+	font-size: 15px;
+	text-align: left;
+}
+
+#third {
+
+	font-size: 14px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+
+#fourth {
+
+	display: flex;
+	flex-direction: row;
+	font-size: 14px;
+	justify-content: space-between;
+}
+
+p.eth {
+
+	margin: left;
+	display: inline-flex;
+}
+
+p.right {
+
+	margin: right;
+	display: inline-flex;
+
+}
+
+img.eth {
+
+	height: 15px;
+	width: 15px;
+	margin-right: 5px;
+
+}
+
+img.avatar {
+
+height:25px;
+width:25px;
+border-radius: 50px;
+margin: auto;
+}
+
+p.jules {
+
+margin: auto;
+color: white;
+color:hsl(215, 51%, 70%);
+}
+
+span {
+	color: white;
+}
+
+#madein {
+
+	margin: auto;
+	color: white;
+	margin-top: 5px;
+}
+
+img.clock {
+
+	height: 20px;
+	width: 20px;
+}
